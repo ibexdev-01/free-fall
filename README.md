@@ -21,35 +21,21 @@ This project uses a custom Node.js build pipeline with `esbuild` for minificatio
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/ibexdev-01/free-fall.git](https://github.com/ibexdev-01/free-fall.git)
-2Navigate to the directory and install the bundler dependencies:
+   git clone https://github.com/ibexdev-01/free-fall.git
+2. Navigate to the directory and install the bundler dependencies:
 
 Bash
 cd free-fall
 npm install
-Building the Extension
-To compile the source code for production or testing:
 
-Bash
-npm run build
-This script will clean the old build, minify src/content.js, bundle the assets into a dist/ directory, and automatically generate an extension-release.zip file ready for the Chrome Web Store.
-
-🚀 How to Load Locally
+🚀 How to Load the extension:
 Run npm run build.
 
 Open your browser and navigate to chrome://extensions/ (or edge://extensions/).
 
 Enable Developer Mode.
 
-Click Load unpacked and select the newly generated dist/ folder.
+Click Load unpacked and select the newly generated src/ folder.
 
 ⚠️ Disclaimer
 Do not use this extension while making secure payments or using trading/banking consoles. The DOM manipulation features are designed for casual browsing and may interfere with secure financial forms.
-
-
-Once you save that file, just run these three commands in your terminal to push it up to GitHub:
-1. `git add README.md`
-2. `git commit -m "docs: add comprehensive README"`
-3. `git push`
-
-Let me know when your Chrome Web Store dashboard updates—I'd love to hear when it gets officially approved! Are you planning to add any of those advanced features (like the opportunity-cost price calculator) for version 2.0?
