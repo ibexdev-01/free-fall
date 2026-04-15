@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "free-fall",
+  "version": "1.0",
+  "description": "Mindful browsing extension that selectively blocks distractions and applies dynamic price modification system-wide.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>Mindful Browsing</h2>
+
+  <div class="warning-card">
+    <strong>⚠️ Critical Warning</strong>
+    <p>Disable this extension when making payments, using trading consoles, banking websites, or engaging in any financial transactions. The DOM manipulation features may interfere with secure forms and cause financial loss.</p>
+  </div>
+
+  <div class="intended-use">
+    <p><strong>Intended Use:</strong> Only use this extension for mindful shopping, research, or casual browsing where payments are not required.</p>
+  </div>
+
+  <div class="toggle-container">
+    <label for="adAction">Content Guard:</label>
+    <select id="adAction">
+      <option value="blur" selected>Blur Distractions</option>
+      <option value="remove">Remove Completely</option>
+      <option value="show">Full Visibility (Original)</option>
+    </select>
+  </div>
+
+  <div class="toggle-container">
+    <label>AI Overviews:</label>
+    <label class="checkbox-row">
+      <input type="checkbox" id="showAiSources" />
+      Rescue & Show Source Links
+    </label>
+  </div>
+
+  <p>Changes apply inherently across all tabs.</p>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "free-fall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "esbuild": "^0.28.0"
+  }
+}
