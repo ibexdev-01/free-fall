@@ -7,7 +7,7 @@ Unlike traditional ad-blockers, Free-Fall is built for "peace of mind." It waits
 ## ✨ Features
 * **Sponsored Content Blocker:** Identifies and completely hides sponsored product cards on e-commerce sites (Amazon, Flipkart) using both text-node scanning and advanced SVG path targeting.
 * **AI Overview Hider:** Removes the distracting AI summaries from Google and Bing (`#b_genserp_container`) search results.
-* **Impulse Shopping Deterrent:** Automatically modifies the prices on e-commerce sites (e.g., changing $1,001 to $1020) to break the psychological loop of impulse buying.
+* **Impulse Shopping Deterrent:** Automatically modifies the prices on e-commerce sites (e.g., changing $999 to $1000) to break the psychological loop of impulse buying.
 * **Smart URL Caching:** Uses `chrome.storage.local` to remember distraction-heavy URLs, applying filters instantly on repeat visits without re-scanning the DOM.
 * **Performance Safe:** Utilizes debounced `MutationObservers` to handle Single Page Applications (SPAs) without causing browser lag.
 
